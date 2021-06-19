@@ -49,3 +49,22 @@ int mode(int x[],int n)
 
    return maxValue;
 }
+int factors(int k, int ret[])
+{
+int i,count,j;
+for(i=0;i<=k;i++)
+{
+    count=0;
+    for(j=2;j<ret[i];j++)
+    {
+        if((ret[i]%j)==0)
+        {
+            count=1;
+            break;
+        }
+
+
+    }
+    
+}
+}
